@@ -41,6 +41,8 @@ extern uint8_t instruction;
 extern uint8_t cpu_memory[0x10000];
 
 uint8_t read8(uint16_t address);
+uint16_t read16(uint16_t address);
+
 void write8(uint16_t address, uint8_t value);
 
 void push16(uint16_t value);
